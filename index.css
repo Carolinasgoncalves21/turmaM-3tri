@@ -2,6 +2,10 @@ body {
     background-color:#D3D3D3;
 }
 
+header {
+    background-color: #0931d2;
+}
+
 nav li {
     display: inline;
 }
@@ -9,7 +13,7 @@ nav li {
 nav a{
     text-transform: uppercase;
     color: yellow;
-    background-color: #0931d2;
+    
 }
 
 .texto-principal {
@@ -30,7 +34,7 @@ p {
 
 h1, h2, h3, p, ul, li{
      padding: 5px;
-     margin: 5px;
+     margin: 10px;
 
 }
 
