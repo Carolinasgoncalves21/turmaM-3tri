@@ -27,6 +27,13 @@ p {
     color: blue;
 
 }
+
+h1, h2, h3, p, ul, li{
+     padding: 5px;
+     margin: 5px;
+
+}
+
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
