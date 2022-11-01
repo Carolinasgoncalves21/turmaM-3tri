@@ -6,6 +6,11 @@ header {
     background-color: #0931d2;
 }
 
+.menu{
+    border: 5px yellow dashed;
+    margin-top: 50px;
+}
+
 nav li {
     display: inline;
 }
