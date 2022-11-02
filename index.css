@@ -16,6 +16,8 @@ header {
     margin-left: 5%;
     float: left;
     position: absolute;
+    top: 0px;
+    left: 10px;
 }
 
 nav li {
