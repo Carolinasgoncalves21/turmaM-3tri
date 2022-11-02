@@ -29,6 +29,9 @@ nav {
 
 nav li {
    display: inline;
+   padding: 0px;
+   margin: 0px;
+
 }
 
 nav a {
