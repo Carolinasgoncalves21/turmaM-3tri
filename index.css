@@ -38,9 +38,17 @@ p {
 
 }
 
-h1, h2, h3, p, ul, li{
+h1, h2, h3, p, ul, li {
      padding: 5px;
      margin: 10px;
+
+}
+
+#imagem-menu { 
+    width: 10%;
+    margin-left: 20%;
+    float: left;
+    position: absolute;
 
 }
 
