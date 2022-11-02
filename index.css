@@ -1,5 +1,5 @@
 body {
-    background-color:#7f75f6;
+    background-color: rgb(135, 135, 215);
 }
 
 header {
@@ -7,7 +7,7 @@ header {
 }
 
 .menu{
-    border: 5px yellow dashed;
+    border: 5px blue dashed;
     margin-top: 50px;
 }
 
@@ -17,7 +17,7 @@ nav li {
 
 nav a{
     text-transform: uppercase;
-    color: yellow;
+    color: blue;
     font-weight: bold;
     
 }
