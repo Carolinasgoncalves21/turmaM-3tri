@@ -1,18 +1,9 @@
 body {
-    background-color:#D3D3D3;
+    background-color:#7f75f6;
 }
 
 header {
-    background-color: #0931d2;
-}
-
-#imagem-menu { 
-    width: 5%;
-    margin-left: 5%;
-    float: left;
-    position: absolute;
-    top: 0px;
-    left: 5px;
+    background-color: #cccccc;
 }
 
 .menu{
