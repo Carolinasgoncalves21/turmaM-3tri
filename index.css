@@ -49,11 +49,11 @@ h1, h2, h3, p, ul, li {
 }
 
 .itens {
-	color:  #5F9EA0;
+	color:  whitesmoke;
 	text-decoration: underline;
 }
 .texto-principal {
-    margin-right: 0%; 
+    margin-right: 20%; 
    
 }
 
