@@ -6,6 +6,15 @@ header {
     background-color: #0931d2;
 }
 
+#imagem-menu { 
+    width: 5%;
+    margin-left: 20%;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 5px;
+}
+
 .menu{
     border: 5px yellow dashed;
     margin-top: 50px;
@@ -41,16 +50,6 @@ p {
 h1, h2, h3, p, ul, li {
      padding: 5px;
      margin: 10px;
-
-}
-
-#imagem-menu { 
-    width: 5%;
-    margin-left: 20%;
-    float: left;
-    position: fixed;
-    top: 0px;
-    left: 20px;
 
 }
 
