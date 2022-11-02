@@ -11,6 +11,13 @@ header {
  
 }
 
+#imagem-principal {
+    width: 5%;
+    margin-left: 5%;
+    float: left;
+    position: absolute;
+}
+
 nav li {
     display: inline;
 }
