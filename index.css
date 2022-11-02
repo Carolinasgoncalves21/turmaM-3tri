@@ -8,6 +8,9 @@ header {
 
 .menu{
     border: 5px blue dashed;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
  
 }
 
@@ -22,8 +25,8 @@ nav li {
     display: inline;
 }
 
-nav a{
-    
+nav a {
+    text-transform: uppercase;
     color: blue;
     font-weight: bold;
     text-shadow: none;   
