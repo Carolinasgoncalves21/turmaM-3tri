@@ -8,9 +8,9 @@ header {
 
 #imagem-menu { 
     width: 5%;
-    margin-left: 20%;
+    margin-left: 5%;
     float: left;
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 5px;
 }
