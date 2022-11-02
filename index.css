@@ -20,9 +20,12 @@ header {
     left: 20px;
 }
 
-nav li {
+nav {
     border: 5px blue dashed;
-    display: inline;
+}
+
+nav li {
+   display: inline;
 }
 
 nav a {
