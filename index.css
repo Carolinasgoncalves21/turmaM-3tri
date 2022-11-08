@@ -4,41 +4,44 @@ body {
 
 header {
     background-color: #cccccc;
+    padding: 20 0px;
 }
 
 .menu{
     position: relative;
-    width: 94px;
-    margin: 10px;
- 
+    width: 940px;
+    margin: 0 auto;
 }
 
 #imagem-menu {
     width: 10%;
+    height: 10%;
     position: relative;
+    padding-bottom: 20px;
     top: 10px;
-    left: 30px;
+    right: 5px;
 }
 
 nav {
-    border: 5px blue dashed;
-    width: 94px;
-    margin: 10px;
- 
+    position: absolute;
+    top: 20px;
+    right: 50px;
+
 }
 
 nav li {
    display: inline;
-   padding: 0px;
-   margin: 0px;
+   margin: 0 0 0 15px;
 
 }
 
 nav a {
+    font-size: 22px;
     text-transform: uppercase;
     color: blue;
     font-weight: bold;
-    text-shadow: none;   
+    text-shadow: none;
+    text-decoration: none;
 }
 
 h1 {
@@ -47,17 +50,24 @@ h1 {
     font-size: 30px;
     text-transform: uppercase;
 }
+
 h2 {
-    color: rgb(65, 50, 234);
+    color: white;
 }
+
 p {
-    color: blue;
+    color: whitesmoke;
 
 }
 
-h1, h2, h3, p, ul, li {
+h1, h2, h3, p {
      padding: 5px;
      margin: 10px;
+
+}
+
+ul, li {
+    margin: 15px;
 
 }
 
@@ -73,9 +83,8 @@ h1, h2, h3, p, ul, li {
 	color:  whitesmoke;
 	text-decoration: underline;
 }
+
 .texto-principal {
-    margin-right: 20%; 
-   
+    margin-right: 20%;
+
 }
-
-
