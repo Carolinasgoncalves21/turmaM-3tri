@@ -1,0 +1,122 @@
+body {
+    background-color: #cecec6;
+    padding: 0 0px;
+    height: 400vh;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    position:sticky;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+header {
+    position: sticky;
+    background: #4a94e2;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px,
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#cbcbcb;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: yellow;
+    
+}
+
+
+li::marker {
+    content: "\002A";
+    color: red;
+    font-size: 20px;
+    
+}
+
+h2, h3, p, ul, li {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #4a94e2;
+    text-align: center;
+    font-size: 30px;
+    border: 5px #2169a3 dashed;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+h2 {
+    color: #301ac4;
+    font-weight: bold;
+
+}
+
+p {
+    color:  #408fce;
+    font-size: 25px;
+}
+
+#imagem-principal {
+    width: 10%;
+    margin-left: 80%;
+    border: 5px dotted #2f74c8;
+    flexbox: left;
+    position: absolute;
+    z-index: -1;
+}
+
+.texto-principal {
+    margin-left: .5%;
+}
+
+.itens {
+	color: blue;
+	text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg");
+    padding: 40px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    
+}
+
+footer url {
+  opacity: 0.5;
+}
+
+.imgrodape {
+  width: 200px;
+}
+
+.copyright {
+    color: blue;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

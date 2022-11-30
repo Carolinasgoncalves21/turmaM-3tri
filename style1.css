@@ -1,0 +1,95 @@
+body {
+    background-color: #cecec6;
+    padding: 0 0px;
+    height: 300vh;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+header {
+    position: sticky;
+    background: #4a94e2;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px,
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#cbcbcb;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: navy;
+    
+}
+
+li::marker {
+    content: "\002A";
+    color: red;
+    font-size: 20px;
+    
+}
+
+h2, h3, p, ul, li {
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    color: #301ac4;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: inherit;
+    width: 80%;
+
+}
+
+p {
+    color:  #408fce;
+    font-size: 25px;
+    
+}
+
+.participantes, .formadores {
+    width: 100px;
+    display: flex;
+    text-align: center;
+     
+}
+
+.participantes li {
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 5px outset red;
+    border-radius: 30%;
+   
+}
+
+footer {
+    text-align: center;
+    background-image: url(fundo.jpg);
+}

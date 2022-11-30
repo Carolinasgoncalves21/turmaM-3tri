@@ -1,0 +1,21 @@
+body {
+    height: 300vh;
+     }
+  
+  .exemplo {
+    margin-top: 500px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .exemplo1{
+    background-color: blue;
+    position: sticky;
+    right: 0;
+    top:20px;
+  }
